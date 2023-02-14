@@ -1,0 +1,19 @@
+{
+  "name": "public-assets",
+  "description": "Escuela Ozeano - Public Assets",
+  "version": "1.0.0",
+  "author": "Helder Torres <helder.torres@innki.tech>",
+  "keywords": [
+    "public-assets",
+    "escuela-ozeano"
+  ],
+  "license": "MPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/escuela-ozeano/public-assets.git"
+  },
+  "scripts": {
+    "build:images": "rm -rf dist/images/* && cp -R src/images/* dist/images/",
+    "deploy": "git subtree push --prefix dist github gh-pages"
+  }
+}
