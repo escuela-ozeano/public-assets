@@ -1,16 +1,16 @@
 {
   "name": "public-assets",
-  "description": "Escuela Ozeano - Public Assets",
+  "description": "Rubén Gutiérrez - Public Assets",
   "version": "1.0.0",
   "author": "Helder Torres <helder.torres@innki.tech>",
   "keywords": [
     "public-assets",
-    "escuela-ozeano"
+    "ruben-gutierrez"
   ],
   "license": "MPL-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/escuela-ozeano/public-assets.git"
+    "url": "https://github.com/ruben-gutierrez/public-assets.git"
   },
   "scripts": {
     "build:images": "rm -rf dist/images/* && cp -R src/images/* dist/images/",
