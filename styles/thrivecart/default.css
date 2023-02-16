@@ -1,0 +1,93 @@
+/* ---------------------------------------------------------------- */
+/* Copyright: Innki Tech 2022. All Rights Reserved                  */
+/* Mantainer: Helder Torres <helder.torres@innki.tech>              */
+/* This file is licensed under the MPL 2.0 license                  */
+/* License text available at https://www.mozilla.org/en-US/MPL/2.0  */
+/* ---------------------------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.tc-font-fjalla_one {
+  font-weight: 400 !important;
+}
+
+.builder-v2-block-core_footer {
+  display: none !important;
+}
+
+.tc-v2-widget-core_pricing_breakdown ul.order-details .order-details-row em {
+  width: 10% !important;
+}
+
+.builder-v2-block-core_fields_buy_button > div.trigger > button {
+  animation: rocking 2s infinite !important;
+  animation-timing-function: cubic-bezier(0, 0, 0.58, 1) !important;
+  transition: .2s !important;
+}
+
+div.custom-fields > div:nth-child(2) {
+  display: none !important;
+}
+
+@media (min-width: 576px) {
+  .builder-v2-block-spaced {
+    padding: 1.5em 0.5em !important;
+  }
+
+  .row-columns-country_field {
+    margin-top: 1.5em !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .row-columns-country_field {
+    margin-bottom: 0.5em !important;
+  }
+
+  .externalfield.vatnumber {
+    margin-top: 0.5em !important;
+    margin-bottom: 4em !important;
+  }
+
+  .data-field-block-name_inner {
+    margin-bottom: 0.5em !important;
+  }
+
+  .data-field-block-business_contact {
+    margin-bottom: 0.5em !important;
+  }
+
+  .builder-v2-block-spaced {
+    padding: 0 !important;
+  }
+
+  .tc-v2-widget-core_pricing_breakdown ul.order-details .order-details-row em {
+    width: 20% !important;
+  }
+
+  .custom-fields {
+    margin-top: 0.5em !important;
+  }
+}
+
+@keyframes rocking{
+  0%{
+    transform:rotate(0deg)
+  }
+
+  25%{
+    transform:rotate(0deg)
+  }
+  
+  50%{
+    transform:rotate(2deg)
+  }
+  
+  75%{
+    transform:rotate(-2deg)
+  }
+  
+  100%{
+    transform:rotate(0deg)
+  }
+}
