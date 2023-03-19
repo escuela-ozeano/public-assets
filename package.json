@@ -10,7 +10,7 @@
   "license": "MPL-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ruben-gutierrez/public-assets.git"
+    "url": "https://github.com/ruben-gutierrez-bm/public-assets.git"
   },
   "scripts": {
     "build:images": "rm -rf dist/images/* && cp -R src/images/* dist/images/",
